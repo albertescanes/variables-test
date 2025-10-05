@@ -13,3 +13,4 @@ jobs:
       - name: Print variables
         run: |
           echo ${{ github.event.created_at }}
+          echo ${{ github.event.repository.description }}
