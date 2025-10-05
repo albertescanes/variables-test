@@ -14,3 +14,4 @@ jobs:
         run: |
           echo ${{ github.event.created_at }}
           echo ${{ github.event.repository.description }}
+          echo ${{ github.event.repo.name }}
