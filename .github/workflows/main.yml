@@ -12,4 +12,4 @@ jobs:
     steps:
       - name: Print variables
         run: |
-          echo ${{ github.event.repository.created_at }}
+          echo ${{ github.event.created_at }}
