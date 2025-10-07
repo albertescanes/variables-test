@@ -15,3 +15,5 @@ jobs:
           echo ${{ github.event.created_at }}
           echo ${{ github.event.repository.description }}
           echo ${{ github.event.repo.name }}
+          echo ${{ github.event.repository.license.spdx_id }}
+          echo ${{ github.event.repository.license }}
